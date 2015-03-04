@@ -190,4 +190,6 @@
     <!-- Description of policy access to start enforcing MMAC policy [CHAR LIMIT=110]-->
     <string name="policydesc_enforceMmac">Toggle MMAC policy enforcing or permissive mode.</string>
 
+    <!-- ActionBar action to delete the current selection [CHAR LIMIT=10] -->
+    <string name="trash">Delete</string>
 </resources>
