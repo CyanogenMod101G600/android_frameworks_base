@@ -2422,13 +2422,10 @@ public class Activity extends ContextThemeWrapper
         switch (action) {
             case MotionEvent.ACTION_DOWN:
 
-                    if (Settings.System.getInt(getContentResolver(),
-                    Settings.System.STATUSBAR_PEEK, 0) == 1) {
                     if (ev.getY() < getStatusBarHeight()) {
                         mQuickPeekInitialY = ev.getY();
                         mQuickPeekAction = true;
 		    }	
-                }
 		onUserInteraction();
                 break;
 
@@ -2444,7 +2441,7 @@ public class Activity extends ContextThemeWrapper
                             getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
                             getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
                         }
-                    }, (Settings.System.getInt(getContentResolver(), Settings.System.STATUSBAR_QUICK_PEEK_TIMEOUT, 5000)));
+                    }, 5000);
                 }
                 break;
 

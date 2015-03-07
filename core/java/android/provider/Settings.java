@@ -2805,14 +2805,6 @@ public final class Settings {
          */
         public static final String EXPANDED_DESKTOP_STYLE = "expanded_desktop_style";
 
-	/**
-         * Peek at stausbar when it is hidden by swiping down from top
-         * end of the screen
-         *
-         * @hide
-         */
-        public static final String STATUSBAR_PEEK = "statusbar_peek";
-
         /**
          * Whether to use a separate delay for "slide to unlock" and security
          * lock
