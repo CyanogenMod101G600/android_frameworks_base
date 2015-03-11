@@ -152,7 +152,7 @@ font_src_files += \
     RobotoCondensed-Italic.ttf \
     RobotoCondensed-BoldItalic.ttf \
     DroidNaskh-Regular.ttf \
-    DroidNaskhUI-Regular.ttf \
+    DroidNaskh-Regular-SystemUI.ttf \
     DroidSansDevanagari-Regular.ttf \
     DroidSansHebrew-Regular.ttf \
     DroidSansHebrew-Bold.ttf \
